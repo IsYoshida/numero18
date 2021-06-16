@@ -151,7 +151,7 @@ let mess = {
         group: '❌ Este comando só pode ser usado em grupos! ❌',
         ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
         ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: '❌ VOCÊ NÃO É UM ADMINISTRADOR DO GRUPO E VOCÊ SABE DISSO, NÃO SEI NEM O MOTIVO DE VOCÊ TENTAR USAR ESSE COMANDO MESMO SABENDO QUE NÃO IREI OBEDECÊ-LO! ❌,
+        admin: '❌ VOCÊ NÃO É UM ADMINISTRADOR DO GRUPO E VOCÊ SABE DISSO, NÃO SEI NEM O MOTIVO DE VOCÊ TENTAR USAR ESSE COMANDO MESMO SABENDO QUE NÃO IREI OBEDECÊ-LO! ❌',
         Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador do grupo! ❌'
     }
 }
