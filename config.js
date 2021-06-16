@@ -10,7 +10,7 @@ var gimagenotregister = true
 var sgooglenotregister = true
 // quando não há comando registrado o bot procura uma pesquisa no google
 
-const antinewchatmsg = 'O anti chat está ativado e você não é meu proprietário, logo será bloqueado.'
+const antinewchatmsg = 'O anti chat está ativado se você não é meu proprietário, logo será bloqueado.'
 //mensagem do antinewchat
 
 const urlaudiomenu = 'https://j.top4top.io/m_19939y1xz0.mp3'
