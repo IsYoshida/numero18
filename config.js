@@ -44,15 +44,15 @@ const titlemenumsgimg = 'BEM-VINDO'
 //Título no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const backgroundmenuimg = `http://imgur.com/a/rmHlD87.png`
+const backgroundmenuimg = `http://imgur.com/a/rmHlD87`
 //Link direto da imagem de fundo TAMANHO RECOMENDADO: 1280x720
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const backgroundwelcomeimg = `http://imgur.com/a/rmHlD87.png`
+const backgroundwelcomeimg = `http://imgur.com/a/rmHlD87`
 //Link direto da imagem de fundo da boas-vindas TAMANHO RECOMENDADO: 1280x720
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const backgroundbyeimg = `http://imgur.com/a/FcWoiqb.jpeg`
+const backgroundbyeimg = `http://imgur.com/a/FcWoiqb`
 //Link direto da imagem de fundo das despedidas TAMANHO RECOMENDADO: 1280x720
 //Obs: não coloque o texto longo para a imagem não sumir
 
@@ -85,7 +85,7 @@ const banmsgporn = 'Enviando pornografia aqui mesmo sabendo que não pode... Ade
 const adminmsgporn = '*Você é um admin e deveria ter mais respeito quanto a isso, espero que isso não se repita!*'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = 'Corra Membro comum, O ban está próximo...'
+const banmsglink = 'Link aqui não... Adeus.👋🏻'
 // mensagem de ban no antilink
 
 const adminmsglink = 'Isso é um link... Ah é verdade, você é um admin e só por isso não irei te remover do grupo :)'
