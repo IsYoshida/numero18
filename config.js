@@ -103,16 +103,16 @@ const qnttravahardroleta = 0
 
 // MENSAGENS DE BOM DIA BOA TARDE E BOA NOITE
 
-const linkimgday = 'https://i.imgur.com/RR18JiI.jpg'
-const textmsgday = 'Ohayo gozaimasu, Onii-chan 👉👈'
+const linkimgday = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzipqWNS5S9rmcAGoahGLen47K7Q-dcDhAOw&usqp=CAU'
+const textmsgday = 'Bom dia ☕ > <'
 // link e mensagem de bom dia
 
-const linkimgeve = 'https://i.ibb.co/bLXgcBW/lp-tarde-anime-by-hitsukinyan-db7fpqr-fullview.jpg'
-const textmsgeve = `Kon'nichiwa Onii-chan, aceite esse café ☕`
+const linkimgeve = 'https://i.pinimg.com/originals/6b/df/29/6bdf2959c159aac610de39a06b5589c8.jpg'
+const textmsgeve = `Boa tarde ☀️> <`
 // link e mensagem de boa tarde
 
-const linkimgnig = 'https://i.ibb.co/VJCd34F/EKvo372-X0-AEd-Hz.jpg'
-const textmsgnig = 'Konbanwa Onii-chan, espero que tenha tido um bom dia ☺️'
+const linkimgnig = 'https://i.pinimg.com/originals/d3/ac/69/d3ac692dab4fc3a68adb8df93cc05615.jpg'
+const textmsgnig = '️Boa noite ☕> <'
 // link e mensagem de boa noite 
 
 // MENSAGENS DE ERRO
