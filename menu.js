@@ -9,6 +9,8 @@ return `
 
 *~Servidor no Discord: https://discord.gg/YG5KMXDetG*
 
+*~Instagram: https://instagram.com/aleatorymenes/*
+
 > *ABAIXO ENCONTRA-SE A LISTA COM TODOS OS COMANDOS DO BOT.*
 
 > *NÃO ENVIE O COMANDO !MENU NO GRUPO. (SUJEITO A SER BLOQUEADO SE FIZER PROPOSITALMENTE).*
@@ -521,8 +523,7 @@ return `
 ┃ ${p}bitcoinhoje
 ┃ ${p}realhoje
 ┃ ${p}cvoin (c1)|(c2)
-┃ ${p}ccoin (c1)|(c2)|(num)
-`
+┃ ${p}ccoin (c1)|(c2)|(num)`
 }
 
 exports.help = help
