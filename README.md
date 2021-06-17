@@ -1,5 +1,5 @@
 # <a href="https://instagram.com/aleatorymenes/"> Android Número 18 <a/>
-<h2 align="center">
+<h3 align="center">
     <p>
         <img src= "https://i.imgur.com/NvuVexq.png">
     </p>
@@ -12,7 +12,7 @@
         <a href="https://github.com/IsYoshida/termux-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/IsYoshida/termux-wabot?color=blue&style=flat-square"></a>
         <a href="https://github.com/IsYoshida/termux-wabot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/IsYoshida/termux-wabot?color=blue&style=flat-square"></a>
     </p>
-</h1>
+</h3>
 
 ---
 
