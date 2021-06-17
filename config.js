@@ -104,7 +104,7 @@ const qnttravahardroleta = 0
 // MENSAGENS DE BOM DIA BOA TARDE E BOA NOITE
 
 const linkimgday = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzipqWNS5S9rmcAGoahGLen47K7Q-dcDhAOw&usqp=CAU'
-const textmsgday = 'Bom dia ☕ > <''
+const textmsgday = 'Bom dia ☕ > <'
 // link e mensagem de bom dia
 
 const linkimgeve = 'https://i.pinimg.com/originals/6b/df/29/6bdf2959c159aac610de39a06b5589c8.jpg'
