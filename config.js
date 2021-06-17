@@ -59,7 +59,7 @@ const backgroundbyeimg = `http://imgur.com/a/FcWoiqb`
 const apikeyimgbb = 'f803ac10228ceed0df2420dd9d797c8a'
 // sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
 
-const cr = 'ANDROID NÚMERO 18\n' 
+const cr = 'Android Número 18\n' 
 // texto do simbolo de verificado
 
 const prefix = '!' 
