@@ -7,7 +7,7 @@
         <a href="https://github.com/IsYoshida"><img title="Author"    src="https://img.shields.io/badge/Author-Haru-purple.svg?style=for-the-badge&logo=github"></a>
     </p>
     <p>
-        <a href="https://instagram.com/isyoshida/profile"><img title="Instagram" src="https://img.shields.io/instagram/followers/isyoshida?color=green&style=flat-square"></a>
+        <a href="https://instagram.com/isyoshida/profile"><img title="Instagram" src="https://instagram/profile/isyoshida?color=green&style=flat-square"></a>
         <a href="https://github.com/IsYoshida/termux-wabot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/IsYoshida/termux-wabot?label=Watchers&color=blue&style=flat-square"></a>
         <a href="https://github.com/IsYoshida/termux-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/IsYoshida/termux-wabot?color=blue&style=flat-square"></a>
         <a href="https://github.com/IsYoshida/termux-wabot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/IsYoshida/termux-wabot?color=blue&style=flat-square"></a>
