@@ -1,5 +1,5 @@
-#  Android Número 18
-<h1 align="center">
+# Android Número 18
+<h2 align="center">
     <p>
         <img src= "https://i.imgur.com/NvuVexq.png">
     </p>
