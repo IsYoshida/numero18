@@ -5,7 +5,9 @@ return `
 ┃  
 ┃ *🕐 Data e hora: ${date}*
 ┃ *🙂 Usuário: ${user}*
-┃ *🌎 Wame:${wame}*                                    
+┃ *🌎 Wame: ${wame}*                                    
+
+*~Servidor no Discord: https://discord.gg/YG5KMXDetG*
 
 > *ABAIXO ENCONTRA-SE A LISTA COM TODOS OS COMANDOS DO BOT.*
 
@@ -33,7 +35,6 @@ return `
 ┃ ${p}menu
 ┃ ${p}ping
 ┃ ${p}destrava
-┃ ${p}sugerircmd (txt)
 ┃ ${p}blocklist
 ┃ ${p}blacklist
 ┃ ${p}criador
