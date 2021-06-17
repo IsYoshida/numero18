@@ -4,26 +4,26 @@ const ownerNumber = ["557491143362@s.whatsapp.net"]
 const OriginalOwner = '557491143362' 
 // mude para seu numero
 
-var gimagenotregister = true
+var gimagenotregister = false
 // quando não há comando registrado o bot procura no google image
 
-var sgooglenotregister = true
+var sgooglenotregister = false
 // quando não há comando registrado o bot procura uma pesquisa no google
 
-const antinewchatmsg = 'O anti chat está ativado se você não é meu proprietário, logo será bloqueado.'
+const antinewchatmsg = 'O anti chat novo está ativado se você não é meu proprietário, logo será bloqueado.'
 //mensagem do antinewchat
 
 const urlaudiomenu = 'https://j.top4top.io/m_19939y1xz0.mp3'
 // link direto da url do audio
 
-const antipvmsg = '*🚫 CHAT PRIVADO BLOQUEADO! 🚫*'
+const antipvmsg = '*🚫 CHAT PRIVADO BLOQUEADO 🚫*'
 //mensagem do antipv
 
 const delayantispamcmd = 3
 //tempo de delay do antispamcmd (medido por segundos)
 
 const msgwelcomeimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nEnvie ${prefix}menu no chat privado para receber a lista de comandos!`
+    return `*Seja bem-vindo ${numero}*\n\n*Envie ${prefix}menu no chat privado para receber a lista de comandos!*`
 }
 //Texto de boas vindas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -35,31 +35,31 @@ const byemsgimg = (numero, groupname) => {
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname, battery) => {
-    return `MENU ANDROID NO.18, BATERIA: ${battery}`
+    return `MENU ANDROID NÚMERO 18, BATERIA: ${battery}`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const titlemenumsgimg = 'BEM-VINDO'
+const titlemenumsgimg = 'BEM-VINDO(a)'
 //Título no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const backgroundmenuimg = `http://imgur.com/a/rmHlD87`
+const backgroundmenuimg = `http://imgur.com/a/rmHlD87.png`
 //Link direto da imagem de fundo TAMANHO RECOMENDADO: 1280x720
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const backgroundwelcomeimg = `http://imgur.com/a/rmHlD87`
+const backgroundwelcomeimg = `http://imgur.com/a/rmHlD87.png`
 //Link direto da imagem de fundo da boas-vindas TAMANHO RECOMENDADO: 1280x720
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const backgroundbyeimg = `http://imgur.com/a/FcWoiqb`
+const backgroundbyeimg = `http://imgur.com/a/FcWoiqb.jpg`
 //Link direto da imagem de fundo das despedidas TAMANHO RECOMENDADO: 1280x720
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const apikeyimgbb = 'f803ac10228ceed0df2420dd9d797c8a'
 // sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
 
-const cr = 'Android Número 18\n' 
+const cr = '️Android Número 18\n' 
 // texto do simbolo de verificado
 
 const prefix = '!' 
@@ -68,7 +68,7 @@ const prefix = '!'
 const blockedmsg = '🚫'
 // mensagem quando alguem bloqueado solicita um comando
 
-const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário do bot para saber o motivo 🚫*'
+const blockedcmdmsg = '*🚫 Este comando está bloqueado contate o propitetário do bot para saber o motivo. 🚫*'
 // mensagem quando alguem solicita um comando bloqueado 
 
 // MENSAGENS DE BAN
@@ -79,10 +79,10 @@ const banmsgtype = '*Esta palavra está na minha lista de palavras proíbidas...
 const adminmsgtype = '*Esta palavra está na minha lista de palavras proíbidas.*'
 // mensagem de quando adm manda tipos de mensagens proibidas
 
-const banmsgporn = 'Enviando pornografia aqui mesmo sabendo que não pode... Adeus! 👋🏻 \n\n(Em caso de remoção de forma injusta ou não intencional entre em contato com algum dos administradores do grupo).'
+const banmsgporn = 'Enviando pornográfia aqui mesmo sabendo que não pode... Adeus! 👋🏻 \n\n_(Em caso de remoção de forma injusta ou não intencional entre em contato com algum dos administradores do grupo)_.'
 // mensagem de ban no antiporn
 
-const adminmsgporn = '*Você é um admin e deveria ter mais respeito quanto a isso, espero que isso não se repita!*'
+const adminmsgporn = '*Você é um admin e deveria ter mais respeito quanto a isso, sabe que não deve enviar pornográfia no grupo, espero que isso não se repita!*'
 // mensagem de quando adm manda porn com antiporn ativado
 
 const banmsglink = 'Link aqui não... Adeus.👋🏻'
@@ -91,10 +91,10 @@ const banmsglink = 'Link aqui não... Adeus.👋🏻'
 const adminmsglink = 'Isso é um link... Ah é verdade, você é um admin e só por isso não irei te remover do grupo :)'
 // mensagem de quando adm manda link
 
-const adminmsgpalavra = 'Isso está na minha lista de palavras proibidas.'
+const adminmsgpalavra = 'Isso está na minha lista de palavras proibidas!'
 // mensagem de quando adm manda uma palavra proibida pelo bot
 
-const banmsgpalavra = 'Palavra proibida? Já sabe né'
+const banmsgpalavra = 'Isso está na minha lista de palavras proíbidas... Adeus. 👋🏻'
 // mensagem de ban quando manda uma palavra proibida pelo bot
 
 const qnttravahardroleta = 0
@@ -104,15 +104,15 @@ const qnttravahardroleta = 0
 // MENSAGENS DE BOM DIA BOA TARDE E BOA NOITE
 
 const linkimgday = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzipqWNS5S9rmcAGoahGLen47K7Q-dcDhAOw&usqp=CAU'
-const textmsgday = 'Bom dia ☕ > <'
+const textmsgday = 'Bom dia ☕ > <''
 // link e mensagem de bom dia
 
 const linkimgeve = 'https://i.pinimg.com/originals/6b/df/29/6bdf2959c159aac610de39a06b5589c8.jpg'
-const textmsgeve = `Boa tarde ☀️> <`
+const textmsgeve = `Boa tarde ☀️ > <`
 // link e mensagem de boa tarde
 
 const linkimgnig = 'https://i.pinimg.com/originals/d3/ac/69/d3ac692dab4fc3a68adb8df93cc05615.jpg'
-const textmsgnig = '️Boa noite ☕> <'
+const textmsgnig = '️Boa noite ☕ > <'
 // link e mensagem de boa noite 
 
 // MENSAGENS DE ERRO
@@ -124,19 +124,19 @@ const notregister = `*Comando não registrado, escreva ${prefix}menu no chat pri
 
 // MENSAGENS DE AUTOREPLY
 
-const botlindo = '><'
+const botlindo = '> <'
 const linkbotlindo = 'https://i.pinimg.com/originals/03/da/69/03da699929be5066f998e4c5a3a8270b.jpg'
-const botfeio = 'Tu parece um sirgueijo, um caranguejo amassado 😡'
+const botfeio = 'Tu parece um sirgueijo, um caranguejo amassado. 😡'
 const cadebot = 'Me chamou 👉👈?'
-const botfdp = 'Te foder rapaz, te deitar na porrada quando tiver dormindo'
+const botfdp = 'Te foder rapaz, te deitar na porrada quando tiver dormindo.'
 const botgostoso = 'owo'
 const botfofo = 'uwu'
-const botbaianor = 'Convidei sua placa-mãe pra minha rede seu corno'
-const botcorno = 'Falou o jogador de Fogo Livre'
+const botbaianor = 'Convidei sua placa-mãe pra minha rede seu corno.'
+const botcorno = 'Falou o jogador de Fogo Livre.'
 const botputa = 'Como está sua mãe?'
 const botgay = 'Gay é você seu espremedor de linguiça 😠'
 const botviado = 'Viado é você, seu pindola de mercadinho 😠'
-const numbotfeio = 'senhora sua mãe 😡'
+const numbotfeio = 'E sua mãe, como está?'
 // KEYS
 
 // MENSAGENS DE EXCLUSIVIDADE
@@ -144,15 +144,15 @@ let mess = {
     wait: '⌛ Aguarde um pouco... ⌛',
     success: '✔️ Sucesso! ✔️',
     error: {
-        stick: '❌ Falha, ocorreu um erro ao converter a imagem em sticker ❌',
+        stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
         Iv: '❌ Link inválido ❌'
     },
     only: {
         group: '❌ Este comando só pode ser usado em grupos! ❌',
-        ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
-        ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: '❌ VOCÊ NÃO É UM ADMINISTRADOR DO GRUPO E VOCÊ SABE DISSO, NÃO SEI NEM O MOTIVO DE VOCÊ TENTAR USAR ESSE COMANDO MESMO SABENDO QUE NÃO IREI OBEDECÊ-LO! ❌',
-        Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador do grupo! ❌'
+        ownerG: '❌ Este comando só pode ser usado pelo proprietário do grupo! ❌',
+        ownerB: '❌ Este comando só pode ser usado pelo meu proprietário! ❌',
+        admin: '❌ VOCÊ NÃO É UM ADMINISTRADOR DO GRUPO E VOCÊ SABE DISSO, NÃO SEI O MOTIVO DE VOCÊ TENTAR USAR ESSE COMANDO MESMO SABENDO QUE NÃO IREI OBEDECÊ-LO! ❌',
+        Badmin: '❌ Este comando só pode ser usado quando eu me torno um admin do grupo ❌'
     }
 }
 
