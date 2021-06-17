@@ -1,5 +1,5 @@
-# <a href="https://instagram.com/aleatorymenes/"> Android Número 18 <a/>
-<h2 align="center">
+# <div> color: #D1F2B3; <a href="https://instagram.com/aleatorymenes/"> Android Número 18 <a/>
+<h2 align="center"> <div/>
     <p>
         <img src= "https://i.imgur.com/NvuVexq.png">
     </p>
