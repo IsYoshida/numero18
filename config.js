@@ -144,7 +144,7 @@ let mess = {
     wait: '⌛ Aguarde um pouco... ⌛',
     success: '✔️ Sucesso! ✔️',
     error: {
-        stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+        stick: '❌ Falha, ocorreu um erro ao converter a imagem em sticker. ❌',
         Iv: '❌ Link inválido ❌'
     },
     only: {
