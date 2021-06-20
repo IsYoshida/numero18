@@ -23,6 +23,7 @@ return `
 
 > *POR FAVOR, NÃO USE OS COMANDOS +18 NO GRUPO OU VOCÊ SERÁ REMOVIDO.*
 
+
 *ℹ COMANDOS DE INFORMAÇÕES ℹ*
 ════━━━━━━━════ 
 ┃ ${p}listblockcmd
