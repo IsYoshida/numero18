@@ -10,7 +10,7 @@ var gimagenotregister = false
 var sgooglenotregister = false
 // quando não há comando registrado o bot procura uma pesquisa no google
 
-const antinewchatmsg = 'O anti chat novo está ativado se você não é meu proprietário, logo será bloqueado.'
+const antinewchatmsg = 'Olá, o chat privado está bloqueado, logo abaixo você poderá encontrar o link de acesso ao grupo de figurinhas onde poderá obter mais informações.\n\n*https://chat.whatsapp.com/GQ42nfU8A9nCO8CuQkbfzj*\n\nApós essa mensagem você será bloqueado :)'
 //mensagem do antinewchat
 
 const urlaudiomenu = 'https://j.top4top.io/m_19939y1xz0.mp3'
@@ -120,7 +120,7 @@ const textmsgnig = '️Boa noite ☕ > <'
 const msgerr = 'Deu erro, tente novamente :/'
 // mensagem de erro
 
-const notregister = `*Comando não registrado, escreva ${prefix}menu no chat privado para ver a lista de comandos, caso envie esse comando no grupo será removido imediatamente e bloqueado.*`
+const notregister = `*Comando não registrado, envie ${prefix}menu no CHAT PRIVADO para ver a lista de comandos, caso envie esse comando no grupo será removido imediatamente e bloqueado.*`
 
 // MENSAGENS DE AUTOREPLY
 
