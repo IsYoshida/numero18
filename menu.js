@@ -22,8 +22,7 @@ return `
 > *EM CASO DE REMOÇÃO DE FORMA INJUSTA DO GRUPO CONTATE ALGUM DOS ADMINS DO GRUPO E INFORME SEU CASO.*
 
 > *POR FAVOR, NÃO USE OS COMANDOS +18 NO GRUPO OU VOCÊ SERÁ REMOVIDO.*
-
-
+\n\n
 *ℹ COMANDOS DE INFORMAÇÕES ℹ*
 ════━━━━━━━════ 
 ┃ ${p}listblockcmd
@@ -70,6 +69,12 @@ return `
 ┃ ${p}deletelevel
 ┃ ${p}level (n/a, num)
 ┃ ${p}registerlevel
+
+*⏳ LIMITES ⏳*
+════━━━━━━━════ 
+┃ ${p}resetlimit
+┃ ${p}limitcmd (1 or 0)
+┃ ${p}mylimit
 
 *❌ ANTI ❌*
 ════━━━━━━━════ 
