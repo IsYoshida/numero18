@@ -10,7 +10,7 @@ var gimagenotregister = false
 var sgooglenotregister = false
 // quando não há comando registrado o bot procura uma pesquisa no google
 
-const antinewchatmsg = 'Olá, o chat privado está bloqueado, logo abaixo você poderá encontrar o link de acesso ao grupo de figurinhas onde poderá obter mais informações.\n\n*https://chat.whatsapp.com/GQ42nfU8A9nCO8CuQkbfzj*\n\nApós essa mensagem você será bloqueado :)'
+const antinewchatmsg = 'Olá, o chat privado está bloqueado, logo abaixo você poderá encontrar o link de acesso ao grupo de figurinhas onde poderá obter mais informações.\n\n*https://chat.whatsapp.com/GQ42nfU8A9nCO8CuQkbfzj*\n\nApós essa mensagem você será bloqueado automáticamente :)'
 //mensagem do antinewchat
 
 const urlaudiomenu = 'https://j.top4top.io/m_19939y1xz0.mp3'
@@ -61,7 +61,7 @@ const backgroundbyeimg = `https://i.imgur.com/2TCj9ri.jpg`
 const apikeyimgbb = 'f803ac10228ceed0df2420dd9d797c8a'
 // sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
 
-const cr = '️Android Número 18\n' 
+const cr = '️Android Número 18'
 // texto do simbolo de verificado
 
 const prefix = '!' 
@@ -81,7 +81,7 @@ const banmsgtype = '*Esta palavra está na minha lista de palavras proíbidas...
 const adminmsgtype = '*Esta palavra está na minha lista de palavras proíbidas.*'
 // mensagem de quando adm manda tipos de mensagens proibidas
 
-const banmsgporn = 'Enviando pornográfia aqui mesmo sabendo que não pode... Adeus! 👋🏻 \n\n_(Em caso de remoção de forma injusta ou não intencional entre em contato com algum dos administradores do grupo)_.'
+const banmsgporn = 'Enviando pornográfia aqui mesmo sabendo que não pode... Adeus! 👋🏻 \n_(Em caso de remoção de forma injusta ou não intencional entre em contato com algum dos administradores do grupo)_.'
 // mensagem de ban no antiporn
 
 const adminmsgporn = '*Você é um admin e deveria ter mais respeito quanto a isso, sabe que não deve enviar pornográfia no grupo, espero que isso não se repita!*'
