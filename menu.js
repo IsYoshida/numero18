@@ -66,6 +66,12 @@ return `
 ┃ ${p}msginfo
 ┃ ${p}chatinfo
 
+ *🔇 MUTE  🔇*
+════━━━━━━━════ 
+┃ ${p}mute (marcar)
+┃ ${p}desmute (marcar)
+┃ ${p}mutados
+
 *💫 LEVEL 💫*
 ════━━━━━━━════ 
 ┃ ${p}deletelevel
