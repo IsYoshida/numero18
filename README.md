@@ -44,11 +44,12 @@ cd (nome)
 bash install.sh
 npm start ou sh start.sh
 ---
-#<h4>Atualizar automaticamente<\h4>
-```
+<h4>
+#<Atualizar automaticamente<\h4>
+
 cd (nome)
 sh update.sh
-```
+<\h4>
 ---
 #Logando e deslogando do wpp web
 ```
