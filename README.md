@@ -1,5 +1,5 @@
-# <a href="https://instagram.com/aleatorymenes/"> Android Número 18 <a/>
-<h3 align="center">
+#  Android Número 18
+<h1 align="center">
     <p>
         <img src= "https://i.imgur.com/NvuVexq.png">
     </p>
@@ -7,12 +7,12 @@
         <a href="https://github.com/IsYoshida"><img title="Author"    src="https://img.shields.io/badge/Author-Haru-purple.svg?style=for-the-badge&logo=github"></a>
     </p>
     <p>
-        <a href="https://github.com/isyoshida/profile"><img title="Followers" src="https://img.shields.io/github/followers/IsYoshida?color=green&style=flat-square"></a>
+        <a href="https://github.com/IsYoshida/followers"><img title="Followers" src="https://img.shields.io/github/followers/IsYoshida?color=blue&style=flat-square"></a>
         <a href="https://github.com/IsYoshida/termux-wabot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/IsYoshida/termux-wabot?label=Watchers&color=blue&style=flat-square"></a>
         <a href="https://github.com/IsYoshida/termux-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/IsYoshida/termux-wabot?color=blue&style=flat-square"></a>
         <a href="https://github.com/IsYoshida/termux-wabot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/IsYoshida/termux-wabot?color=blue&style=flat-square"></a>
     </p>
-</h3>
+</h1>
 
 ---
 
@@ -44,7 +44,19 @@ cd (nome)
 bash install.sh
 npm start ou sh start.sh
 ---
+#Atualizar automaticamente
+```
+cd (nome)
+sh update.sh
+```
+---
+#Logando e deslogando do wpp web
+```
+cd (nome)
+node reset.js
 
+(para logar de novo)
+node index.js
 
 ---
 
