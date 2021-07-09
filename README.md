@@ -44,7 +44,7 @@ cd (nome)
 bash install.sh
 npm start ou sh start.sh
 ---
-<h4>#Atualizar automaticamente
+#<h4>Atualizar automaticamente<\h4>
 ```
 cd (nome)
 sh update.sh
@@ -56,7 +56,7 @@ cd (nome)
 node reset.js
 
 (para logar de novo)
-node index.js<h4/>
+node index.js
 
 ---
 
