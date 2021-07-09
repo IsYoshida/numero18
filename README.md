@@ -44,7 +44,7 @@ cd (nome)
 bash install.sh
 npm start ou sh start.sh
 ---
-<h4>Atualizar automaticamente<\h4>
+Atualizar automaticamente
 
 cd (nome)
 sh update.sh
