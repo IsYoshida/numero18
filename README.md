@@ -48,7 +48,7 @@ npm start ou sh start.sh
 
 cd (nome)
 sh update.sh
-<\h4>
+
 ---
 #Logando e deslogando do wpp web
 ```
