@@ -66,6 +66,14 @@ return `
 ┃ ${p}msginfo
 ┃ ${p}chatinfo
 
+*⏱ CONTADOR ⏱*
+════━━━━━━━════ 
+┃ ${p}checkativo (dial)
+┃ ${p}rankativo
+┃ ${p}atividade
+┃ ${p}filtroativo
+┃ ${p}banativos
+
  *🔇 MUTE  🔇*
 ════━━━━━━━════ 
 ┃ ${p}mute (marcar)
