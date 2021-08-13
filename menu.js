@@ -66,6 +66,21 @@ return `
 ┃ ${p}msginfo
 ┃ ${p}chatinfo
 
+*🗳️ VOTAÇÃO 🗳️*
+════━━━━━━━════ 
+┃ ${p}votohelp
+┃ ${p}votoinit
+┃ ${p}clearvoto
+┃ ${p}votostatus
+┃ ${p}voto
+┃ ${p}votofinish
+┃ ${p}gpvotohelp
+┃ ${p}gpvotoinit
+┃ ${p}gpclearvoto
+┃ ${p}gpvotostatus
+┃ ${p}gpvoto
+┃ ${p}gpvotofinish
+
 *⏱ CONTADOR ⏱*
 ════━━━━━━━════ 
 ┃ ${p}checkativo (dial)

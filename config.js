@@ -4,6 +4,8 @@ const ownerNumber = ["557491143362@s.whatsapp.net"]
 const OriginalOwner = '557491143362' 
 // mude para seu numero
 
+const callbotmsgs = ['Número 18', 'Android']
+
 var gimagenotregister = false
 // quando não há comando registrado o bot procura no google image
 
@@ -77,6 +79,17 @@ const blockedcmdmsg = '*🚫 Este comando está bloqueado contate o propitetári
 
 const banmsgtype = '*Esta palavra está na minha lista de palavras proíbidas... Adeus! 👋🏻*'
 // mensagem de ban no anti tipos de mensagem
+
+const ativohelp = `O sistema de contagem de mensagens é por grupo e consiste em fazer um ranking, listar, remover pessoas de acordo
+com a frequência de mensagens no grupo, veja abaixo os comandos para administrar as mensagens do grupo:
+
+checkativo (marcar) - lista a frequência de mensagens do membro marcado
+rankativo - Faz um rank das pessoas mais ativas do grupo
+banativos (num) - remove membros com uma certa qnt de numeros de msg pra baixo
+filtroativo (num) - lista membros com uma certa qnt de numeros de msg pra baixo]
+atividade - lista a atividade de todos membros do grupo
+
+Obs: O número de mensagens pode estar impreciso devido a contagem ser pelo bot.`
 
 const adminmsgtype = '*Esta palavra está na minha lista de palavras proíbidas.*'
 // mensagem de quando adm manda tipos de mensagens proibidas
@@ -169,8 +182,56 @@ const vcard = 'BEGIN:VCARD\n'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
 
+const gpvotohelp = `O sistema de voto gp consiste no sistema normal de voto, porém feito somente para grupos
+veja abaixo os comandos e suas funções a seguir:
+
+${prefix}gpinitvoto
+${prefix}gpvotoinit - Inicia a votação em grupo
+Ex: ${prefix}gpvotoinit tema | opção 1 | opção 2
+Obs: pode acrescentar quantas opções quiser
+
+${prefix}gpclearvoto
+${prefix}gpvotoclear - Limpa todos os votos
+
+${prefix}gpvotostatus
+${prefix}gpstatusvoto - Vê o status atual do voto
+
+${prefix}gpvoto - Vota em uma opção
+Ex: ${prefix}gpvoto opção1
+
+${prefix}gpvotofinish
+${prefix}gpfinishvoto - Encerra a votação
+
+${prefix}gpbroadvoto
+${prefix}gpvotobroad - Faz uma transmissão da votação para todos membros do grupo`
+
+const votohelp = `O sistema de voto consistem em todos os usuários do bot poderem votar e para ter uma boa
+experiência, há comandos para administrar essa votação. Veja abaixo os comandos e suas funções a seguir:
+
+${prefix}initvoto
+${prefix}votoinit - Inicia a votação geral
+Ex: ${prefix}votoinit tema | opção 1 | opção 2
+Obs: pode acrescentar quantas opções quiser
+
+${prefix}clearvoto
+${prefix}votoclear - Limpa todos os votos
+
+${prefix}votostatus
+${prefix}statusvoto - Vê o status atual do voto
+
+${prefix}voto - Vota em uma opção
+Ex: ${prefix}voto opção1
+
+${prefix}votofinish
+${prefix}finishvoto - Encerra a votação
+
+${prefix}broadvoto
+${prefix}votobroad - Faz uma transmissão da votação para todos que usam o bot`
 
 // Nem ouse mexer aqui se n quiser que de erro
+exports.gpvotohelp = gpvotohelp
+exports.votohelp = votohelp
+exports.ativohelp = ativohelp
 exports.limitqnt = limitqnt
 exports.urlaudiomenu = urlaudiomenu
 exports.delayantispamcmd = delayantispamcmd
@@ -224,3 +285,4 @@ exports.cr = cr
 exports.vcard = vcard
 exports.OriginalOwner = OriginalOwner
 exports.ownerNumber = ownerNumber
+exports.callbotmsgs = callbotmsgs
