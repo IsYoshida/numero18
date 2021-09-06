@@ -94,16 +94,16 @@ Obs: O número de mensagens pode estar impreciso devido a contagem ser pelo bot.
 const adminmsgtype = '*Esta palavra está na minha lista de palavras proíbidas.*'
 // mensagem de quando adm manda tipos de mensagens proibidas
 
-const banmsgporn = 'Enviando pornográfia aqui mesmo sabendo que não pode... Adeus! 👋🏻 \n_(Em caso de remoção de forma injusta ou não intencional entre em contato com algum dos administradores do grupo)_.'
+const banmsgporn = 'Alerta de conteúdo suspeito! 👋🏻 \n_(Em caso de remoção de forma injusta entre em contato com algum dos administradores do grupo)_.'
 // mensagem de ban no antiporn
 
-const adminmsgporn = '*Você é um admin e deveria ter mais respeito quanto a isso, sabe que não deve enviar pornográfia no grupo, espero que isso não se repita!*'
+const adminmsgporn = '*Alerta de conteúdo suspeito! Você é um admin e deveria ter mais respeito quanto a isso, sabe que não deve enviar conteúdo que vai contra as diretrizes do grupo, espero que isso não se repita!*'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = 'Link aqui não... Adeus.👋🏻'
+const banmsglink = '*😠👋🏻*'
 // mensagem de ban no antilink
 
-const adminmsglink = 'Isso é um link... Ah é verdade, você é um admin e só por isso não irei te remover do grupo :)'
+const adminmsglink = 'Isso é um link... Como você é um admin não irei te remover do grupo :)'
 // mensagem de quando adm manda link
 
 const adminmsgpalavra = 'Isso está na minha lista de palavras proibidas!'
