@@ -24,7 +24,7 @@ return `
 > *POR FAVOR, NÃO USE OS COMANDOS +18 NO GRUPO OU VOCÊ SERÁ REMOVIDO.*
 ㅤ
 ㅤ
-
+\n\n
 *ℹ COMANDOS DE INFORMAÇÕES ℹ*
 ════━━━━━━━════ 
 ┃ ${p}listblockcmd
@@ -354,43 +354,6 @@ return `
 ┃ ${p}pascoa (ano)
 ┃ ${p}natal (ano)
 ┃ ${p}anonovo
-
-🔞 *COMANDOS +18* 🔞
-════━━━━━━━════ 
-*ATENÇÃO! QUEM USAR ALGUM DESSES COMANDOS NO GRUPO SERÁ REMOVIDO IMEDIATAMENTE!*
-════━━━━━━━════ 
-┃ ${p}packmega18
-┃ ${p}nhentai ❮code❯
-┃ ${p}randomhentai
-┃ ${p}gangbang
-┃ ${p}nsfwblowjob
-┃ ${p}panties
-┃ ${p}wallhentai
-┃ ${p}tentacles
-┃ ${p}nsfwneko
-┃ ${p}nsfwtrap
-┃ ${p}nsfw (1 or 0)
-┃ ${p}yaoi
-┃ ${p}ahegao
-┃ ${p}ecchi
-┃ ${p}cum
-┃ ${p}anal
-┃ ${p}pussy
-┃ ${p}ero
-┃ ${p}ahegao
-┃ ${p}yuri
-┃ ${p}hentaigif
-┃ ${p}hentainekogif
-┃ ${p}futanari
-┃ ${p}nsfwfeet
-┃ ${p}nsfwfeetgif
-┃ ${p}girlmasturbate
-┃ ${p}girlmasturbategif
-┃ ${p}lesbian
-┃ ${p}eroyuri
-┃ ${p}eroneko
-┃ ${p}erokitsune
-┃ ${p}spank
 
 🗣️ *MODIFICADOR DE VOZ* 🗣️
 ════━━━━━━━════
