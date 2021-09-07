@@ -132,10 +132,12 @@ const textmsgnig = '️Boa noite ☕ > <'
 
 // MENSAGENS DE ERRO
 
-const msgerr = 'Deu erro, tente novamente :/'
+const msgerr = 'Ops, tente novamente :/'
 // mensagem de erro
 
-const notregister = `*Comando não registrado, envie ${prefix}menu no CHAT PRIVADO para ver a lista de comandos, caso envie esse comando no grupo será removido imediatamente e bloqueado.*`
+const notregister = `*Comando inexistente, envie !menu no CHAT PRIVADO ou no grupo do link abaixo.*
+*https://chat.whatsapp.com/GQ42nfU8A9nCO8CuQkbfzj.*
+*Caso envie esse comando aqui você será removido e bloqueado imediatamente.*\n (Ignore esta mensagem se for no grupo de stickers).`
 
 // MENSAGENS DE AUTOREPLY
 
