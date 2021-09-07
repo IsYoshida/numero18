@@ -137,7 +137,7 @@ const msgerr = 'Ops, tente novamente :/'
 
 const notregister = `*Comando inexistente, envie !menu no CHAT PRIVADO ou no grupo do link abaixo.*
 *https://chat.whatsapp.com/GQ42nfU8A9nCO8CuQkbfzj.*
-*Caso envie esse comando aqui você será removido e bloqueado imediatamente.*\n (Ignore esta mensagem se for no grupo de stickers).`
+*Caso envie esse comando aqui você será removido e bloqueado imediatamente.*\n (Ignore esta mensagem se ela for enviada no grupo de stickers).`
 
 // MENSAGENS DE AUTOREPLY
 
