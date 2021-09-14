@@ -26,6 +26,12 @@ const limitqnt = 9999
 const delayantispamcmd = 3
 //tempo de delay do antispamcmd (medido por segundos)
 
+const delaystealcmd = 60
+//tempo de delay dos comandos steal (medido por segundos)
+
+const delaygamescmd = 60
+//tempo de delay dos comandos de games (medido por segundos)
+
 const msgwelcomeimg = (numero, groupname) => {
     return `*Seja bem-vindo ${numero}*\n\n*Envie ${prefix}menu no chat privado para receber a lista de comandos!*`
 }
@@ -231,6 +237,8 @@ ${prefix}broadvoto
 ${prefix}votobroad - Faz uma transmissão da votação para todos que usam o bot`
 
 // Nem ouse mexer aqui se n quiser que de erro
+exports.delaygamescmd = delaygamescmd
+exports.delaystealcmd = delaystealcmd
 exports.gpvotohelp = gpvotohelp
 exports.votohelp = votohelp
 exports.ativohelp = ativohelp

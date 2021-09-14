@@ -13,7 +13,7 @@ return `
 
 > *ABAIXO ENCONTRA-SE A LISTA COM TODOS OS COMANDOS DO BOT.*
 
-> *NÃO ENVIE O COMANDO !MENU NO GRUPO. (SUJEITO A SER BLOQUEADO SE FIZER PROPOSITALMENTE).*
+> *NÃO ENVIE O COMANDO !MENU NO GRUPO PRINCIPAL DE CHAT. (SUJEITO A SER BLOQUEADO SE FIZER PROPOSITALMENTE).*
 
 > *NÃO FAÇA SPAM NO CHAT DO BOT OU SERÁ BLOQUEADO.*
 
@@ -66,6 +66,12 @@ return `
 ┃ ${p}msginfo
 ┃ ${p}chatinfo
 
+*👋🏻 BOAS-VINDAS 👋🏻*
+════━━━━━━━════ 
+┃ ${p}byeadd (texto)
+┃ ${p}welcomeadd (texto)
+┃ ${p}welcomehelp
+
 *🗳️ VOTAÇÃO 🗳️*
 ════━━━━━━━════ 
 ┃ ${p}votohelp
@@ -100,6 +106,18 @@ return `
 ┃ ${p}deletelevel
 ┃ ${p}level (n/a, num)
 ┃ ${p}registerlevel
+
+*🎮 XP GAMES 🎮*
+════━━━━━━━════ 
+┃ ${p}jogatina (1 or 0)
+┃ ${p}stealrandom 
+┃ ${p}steal (dial number)
+┃ ${p}cassino 
+┃ ${p}doarxp (xp) (dial number) 
+┃ ${p}roletarandom
+┃ ${p}roletaneg
+┃ ${p}roletapos
+┃ ${p}flip 
 
 *⏳ LIMITES ⏳*
 ════━━━━━━━════ 
