@@ -25,6 +25,7 @@ return `
 ㅤ
 ㅤ
 \n\n
+ㅤ
 *ℹ COMANDOS DE INFORMAÇÕES ℹ*
 ════━━━━━━━════ 
 ┃ ${p}listblockcmd
@@ -56,7 +57,7 @@ return `
 ┃ ${p}infinityblock (1 or 0)
 ┃ ${p}antiligar (1 or 0)
 ┃ ${p}addpalavra (txt)
-┃ ${p}removepalavra (txt)
+┃ ${p}rmpalavra (txt)
 ┃ ${p}limparchat (txt)
 ┃ ${p}ataque (txt)
 ┃ ${p}divulgar (txt)
@@ -240,7 +241,7 @@ return `
 ┃ ${p}nsticker (pack) (author)
 ┃ ${p}nfstiker (pack) (author)
 ┃ ${p}nfsticker (pack) (author)
-┃ ${p}macaco
+┃ ${p}rename (pack) (author)
 
 *💥 ROLETA RUSSA 💥*
 ════━━━━━━════ 
@@ -257,6 +258,8 @@ return `
 ┃ ${p}tttme
 ┃ ${p}tttrank
 ┃ ${p}ttthelp
+┃ ${p}delttc
+┃ ${p}tictactoe
 
 *🎥 VÍDEO 🎥*
 ════━━━━━━════ 
@@ -275,10 +278,22 @@ return `
 
 *🏧 LOGOS 🏧*
 ════━━━━━━━════
-┃ ${p}missionpassed (t1) | (t2)
 ┃ ${p}nulis (txt)
-┃ ${p}watercolor (txt)
-┃ ${p}neonlogo (txt)
+┃ ${p}undgrass (txt)
+┃ ${p}love (txt)
+┃ ${p}coffe (txt)
+┃ ${p}coffe2 (txt)
+┃ ${p}cemitery (txt)
+┃ ${p}gradient (txt)
+┃ ${p}glowing (txt)
+┃ ${p}shinerainbow (txt)
+┃ ${p}graffiti (txt)
+┃ ${p}neonpink (txt)
+┃ ${p}neonrainbow (txt)
+┃ ${p}neongreen (txt)
+┃ ${p}neonblue (txt)
+┃ ${p}neonyellow (txt)
+┃ ${p}neonsky (txt)
 ┃ ${p}flowerlogo (txt)
 ┃ ${p}matrixlogo (txt)
 ┃ ${p}thunderlogo (txt)
@@ -287,17 +302,12 @@ return `
 ┃ ${p}narutologo (txt)
 ┃ ${p}phlogo (t1) | (t2)
 ┃ ${p}mineconquista (t1) | (t2)
-┃ ${p}shadow (txt)
 ┃ ${p}glitch (t1) | (t2)
 ┃ ${p}ravetxt (t1) | (t2)
 ┃ ${p}woodtxt (t1) | (t2)
 ┃ ${p}neon (t1) | (t2)
 ┃ ${p}sunset (t1) | (t2)
 ┃ ${p}gimage (txt)
-┃ ${p}pglass (txt)
-┃ ${p}neonligth (txt)
-┃ ${p}coffe (txt)
-┃ ${p}galaxywp (txt)
 ┃ ${p}whatis (txt)
 ┃ ${p}txt3d (txt)
 
@@ -327,6 +337,7 @@ return `
 ┃ ${p}map (name)
 ┃ ${p}brainlysrc (name)
 ┃ ${p}search (name)
+┃ ${p}searchv2 (name)
 ┃ ${p}ssweb (url)
 ┃ ${p}mediafire (url)
 ┃ ${p}mob
@@ -342,17 +353,12 @@ return `
 ┃ ${p}pinterest (name)
 ┃ ${p}wallpaper
 ┃ ${p}fuckmylife
-┃ ${p}waifu
 ┃ ${p}belle
 ┃ ${p}saycat
 ┃ ${p}biblia
-┃ ${p}animesrc (name anime)
-┃ ${p}mangasrc (name anime)
 ┃ ${p}playstore (name app)
 ┃ ${p}happymod (name app)
-┃ ${p}pokemon
 ┃ ${p}ip (ip)
-┃ ${p}signome (name)
 ┃ ${p}gimage (name)
 
 ⏳ *CONTAGEM* ⏳
@@ -392,7 +398,7 @@ return `
 ┃ ${p}play (music name)
 ┃ ${p}playv2 (music name)
 ┃ ${p}tomp3 (cap, resp vid)
-┃ ${p}ytsearch (name)
+┃ ${p}ytsrc (name)
 ┃ ${p}ytmp4 (yt url)
 ┃ ${p}ytmp3 (yt url)
 
@@ -409,7 +415,6 @@ return `
 ┃ ${p}cpf
 ┃ ${p}ddd (ddd)
 ┃ ${p}cep (cep)
-┃ ${p}gerarcc
 ┃ ${p}gprocesso
 
 🔠 *COMANDOS DE TEXTO* 🔠
@@ -429,22 +434,11 @@ return `
 🌸 *COMANDOS DE ANIME* 🌸
 ════━━━━━━━════ 
 ┃ ${p}randomanime
-┃ ${p}randomshota
 ┃ ${p}randomkiss
-┃ ${p}randomcry
 ┃ ${p}randomhug
 ┃ ${p}nekoanime
 ┃ ${p}wait (cap, resp vid)
 ┃ ${p}slap
-┃ ${p}smile
-┃ ${p}piscada
-┃ ${p}dance
-┃ ${p}cringe
-┃ ${p}blush
-┃ ${p}gore
-┃ ${p}acenar
-┃ ${p}lick
-┃ ${p}bully
 ┃ ${p}kemonomimi
 
 🔣 *CÓDIGOS* 🔣
@@ -498,9 +492,6 @@ return `
 ┃ ${p}instastalk (name)
 ┃ ${p}githubstalk (name)
 ┃ ${p}tiktokstalk (name)
-┃ ${p}twitterstalk (name)
-┃ ${p}ffstalk (id ff)
-┃ ${p}ytstalk (name)
 
 🗣️🤖 *INTERAÇÃO COM O BOT* 🗣️🤖
 ════━━━━━━━════ 
