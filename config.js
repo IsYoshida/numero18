@@ -39,7 +39,7 @@ const msgwelcomeimg = (numero, groupname) => {
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const byemsgimg = (numero, groupname) => {
-    return `Adeus ${numero}`
+    return `👋🏻 ${numero}`
 }
 //Texto de despedidas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -83,7 +83,7 @@ const blockedcmdmsg = '*🚫 Este comando está bloqueado contate o propitetári
 
 // MENSAGENS DE BAN
 
-const banmsgtype = '*Esta palavra está na minha lista de palavras proíbidas... Adeus! 👋🏻*'
+const banmsgtype = '*Esta palavra está na minha lista de palavras proíbidas... 👋🏻*'
 // mensagem de ban no anti tipos de mensagem
 
 const ativohelp = `O sistema de contagem de mensagens é por grupo e consiste em fazer um ranking, listar, remover pessoas de acordo
