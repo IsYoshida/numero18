@@ -1,5 +1,5 @@
 const ttthelp = (p) => {
-    return `*# JOGO DA VELHA #* 
+    return `🔥 *JOGO DA VELHA* 🔥
 
 Disponível apenas pra grupos
 
